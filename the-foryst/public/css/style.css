@@ -1,6 +1,4 @@
 body {
-  height: 100%;
-  width: 100%;
   margin: 0;
   /*background-position: center;*/
 }
@@ -8,8 +6,9 @@ body {
 .homecont {
   background: #898989 url('../../newforyst.png') no-repeat;
   background-size: cover;
+  background-position: center;
   width: 100%;
-  height: 100%;
+  height: 100vh;
 }
 
 .thedots {
