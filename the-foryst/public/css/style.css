@@ -4,7 +4,7 @@ body {
 }
 
 .homecont {
-  background: #898989 url('../../newforyst.png') no-repeat;
+  background: #898989 url(' ./newforyst.png') no-repeat;
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -59,6 +59,10 @@ circle:hover {
   height: 100%;
   background: rgba(0,0,0,.3);
   z-index: 1;
+  margin: 0;
+  top: 0;
+  left: 0;
+  position: fixed;;
 }
 .blackout.disp {
   display: block;
