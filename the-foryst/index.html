@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html ng-app="theforyst_app">
+  <head>
+    <meta charset="utf-8">
+    <title>The Foryst</title>
+
+    <!-- jQuery CDN -->
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+    <!-- Local JS Links -->
+    <script src="./public/js/app.js" charset="utf-8"></script>
+    <!-- <script src="./js/routes.js" charset="utf-8"></script> -->
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,700" rel="stylesheet">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="./public/css/style.css">
+
+  </head>
+  <body>
+
+    <div class="homecont">
+      <div class="cont">
+
+        <!-- <svg width="100%" height="100%">
+        <div class="thedots">
+          <circle class="surcle" cx="505" cy="135" />
+          <circle cx="500" cy="140" />
+          <circle cx="505" cy="140" />
+          <circle cx="510" cy="140" />
+        </div>
+        </svg> -->
+
+        <div class="nav">
+          <div class="nav_icon">
+            <div class="burg1"></div>
+            <div class="burg2"></div>
+            <div class="burg3"></div>
+          </div>
+
+          <ul>
+            <li><a class="aboutlink" href="#about">about</a></li>
+            <li><a class="projectslink" href="#projects">projects</a></li>
+            <li><a href="#">services</a></li>
+            <li><a href="#">contact</a></li>
+          </ul>
+        </div>
+
+        <div class="blackout"></div>
+      </div>
+    </div>
+
+    <div id="projects" class="contt">
+
+      <div class="cont">
+
+        <div class="nav">
+          <div class="nav_icon">
+            <div class="burg1"></div>
+            <div class="burg2"></div>
+            <div class="burg3"></div>
+          </div>
+
+          <ul>
+            <li><a href="#">about</a></li>
+            <li><a class="projectslink" href="#projects">projects</a></li>
+            <li><a href="#">services</a></li>
+            <li><a href="#">contact</a></li>
+          </ul>
+        </div>
+
+      <div class="mid">
+
+        <div class="projectcont loveme" onclick="showloveme()">
+        <a href="https://forystj.github.io/Love-Me-Not/">LOVE ME NOT</a>
+        <img src=" ./public/css/p1.png">
+        <h3>An app for those wishing for love</h3>
+        </div>
+
+        <div class="projectcont hl" onclick="showhairlooks()">
+        <a href="https://hair-looks.herokuapp.com/">HAIRLOOKS</a>
+        <img src=" ./public/css/p2.png">
+        <h3>First mockup of hair industry social media</h3>
+        </div>
+
+        <div class="projectcont ear" onclick="showearworm()">
+        <a href="http://earworm.herokuapp.com/">EARWORM</a>
+        <img src=" ./public/css/p3.png">
+        <h3>What song's in your head? let us know</h3>
+        </div>
+
+        <div class="projectcont buck" onclick="showbucketlist()">
+        <a href="https://bucket-list-app-frontend.herokuapp.com/">BUCKET LIST</a>
+        <img src=" ./public/css/p4.png">
+        <h3>You only live once</h3>
+        </div>
+
+        <div class="lovemenot show">
+          <div class="left">
+            <img src=" ./public/css/p1.png">
+          </div>
+          <div class="right">
+            <h1>LOVE ME NOT</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
+
+        <div class="hairlooks show">
+          <div class="left">
+            <img src=" ./public/css/p2.png">
+          </div>
+          <div class="right">
+            <h1>HAIRLOOKS</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
+
+        <div class="earworm show">
+          <div class="left">
+            <img src=" ./public/css/p3.png">
+          </div>
+          <div class="right">
+            <h1>EARWORM</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
+
+        <div class="bucketlist show">
+          <div class="left">
+            <img src=" ./public/css/p4.png">
+          </div>
+          <div class="right">
+            <h1>BUCKET LIST</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>  
+      </div>
+
+      <div id="about" class="aboutt">
+
+        <div class="cont">
+
+          <div class="nav">
+            <div class="nav_icon">
+              <div class="burg1"></div>
+              <div class="burg2"></div>
+              <div class="burg3"></div>
+            </div>
+
+            <ul>
+              <li><a class="aboutlink" href="#about">about</a></li>
+              <li><a class="projectslink" href="#projects">projects</a></li>
+              <li><a href="#">services</a></li>
+              <li><a href="#">contact</a></li>
+            </ul>
+          </div>
+
+          <div class="mid">
+            FORYST JANKELA
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </div>
+        </div>
+      </div>
+
+      <div class="blackout"></div>
+    </div>
+    </div>
+
+  </body>
+</html>
